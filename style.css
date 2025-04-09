@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.container{
+    background: #0B3954;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+
+
+
+.container .top {
+    padding: 15px 20px;
+    background-color: rgba(252, 252, 252, .15);
+    margin: 10px 0;
+
+    color: #ffffff;
+}
+
+.container .operators {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container .operators div {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F58A07;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+
+.numbers {
+    display: flex;
+    gap: 12px;
+}
+
+.numbers .right {
+    flex: 1;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 12px;
+}
+
+.numbers .right  div{
+    cursor: pointer;
+    color: #ffffff;
+    background: #00916E;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.numbers .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numbers .left div {
+    background: #F58A07;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 120px;
+    max-width: 40px ;
+    border-radius: 40px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
